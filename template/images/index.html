@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Management system</title>
+    <link rel="stylesheet" href="../css/bootstrap.css">
+    <link rel="stylesheet" href="../css/index.css">
+    <link href='https://fonts.googleapis.com/css?family=Neucha' rel='stylesheet' type='text/css'>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <script src="../js/index.js"></script>
+</head>
+<body>
+<!--**************************** START Header **************************************-->
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-sm-12 header-main">
+            <div class="row">
+                <div class="col-sm-offset-1 col-sm-5 header-label">
+                    <p>Management System</p>
+                </div>
+            </div>
+        </div>
+        <!--**************************** Menu companies ********************************-->
+        <div class="tabs">
+    <div class="row">
+        <div class="col-sm-12">
+            <div class="add-project-nav-bar-main">
+                <nav>
+                    <div class="nav-menu">
+                        <ul class="nav nav-justified">
+                            <li><a href="#list-of-companies" data-toggle="tab">Companies</a></li>
+                            <li><a href="#add-company" data-toggle="tab">Add new company</a></li>
+                            <li><a href="#edit-company" data-toggle="tab">Edit company info</a></li>
+                            <li><a href="#delete-company" data-toggle="tab">Delete company</a></li>
+                            <li><a href="#about-company" data-toggle="tab">About app</a></li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </div>
+</div>
+<!--**************************START main content********************************* -->
+<div class="container-fluid">
+     <div class="row">
+        <div class="col-sm-12 content-main">
+            <div class="block-border-for-all-content">
+                <!--*********** START first page, congratulations **************************** -->
+                    <div class="row congratulation">
+                           <div class="col-sm-offset-3 col-sm-6 congratulations-block-main">
+                               <p class="congratulations-label">
+                                   CONGRATULATIONS!
+                               </p>
+                               <p class="management-label">
+                                   Management system of companies!
+                               </p>
+                               <div class="row">
+                                   <div class="col-sm-offset-5 col-sm-7">
+                                       <a href="#list-of-companies" data-toggle="tab">Begin</a>
+                                   </div>
+                               </div>
+                           </div>
+                        </div>
+                <!--********************* Companies ***************************-->
+                        <div class="row" id="list-of-companies">
+                            <div class="col-sm-12 main-table">
+                                <div class="row">
+                                    <div class="col-sm-12">
+                                        <p>List of Companies</p>
+                                    </div>
+                                </div>
+                                <table class="table table-bordered">
+                                    <tr>
+                                        <th>Main company name</th>
+                                        <th>Main company profits</th>
+                                        <th>Subsidiary companies</th>
+                                        <th>Subsidiary profits</th>
+                                    </tr>
+                                    <tr>
+                                        <td>Lenovo</td>
+                                        <td>2234$</td>
+                                        <td><button>show</button></td>
+                                        <td><button>show</button></td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </div>
+                <!--************************** Add Company **********************-->
+                        <div class="row" id="add-company">
+                            <div class="col-sm-12 main-table">
+                               <p>Add new company</p>
+                                <div class="row">
+                                    <div class="col-sm-10">
+                                        <form>
+                                            <div class="row">
+                                                <label class="col-sm-offset-2 col-sm-2">Name of company</label>
+                                                <div class="col-sm-6">
+                                                    <input type="text" class="form-control">
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <label class="col-sm-offset-2 col-sm-2">Annual profits</label>
+                                                <div class="col-sm-6">
+                                                    <input type="text" class="form-control">
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-sm-offset-9 col-sm-2">
+                                                    <input class="btn btn-primary" type="submit" value="Submit">
+                                                </div>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                <!--************************** Edit Company *********************-->
+                        <div class="row" id="edit-company">
+                            <div class="col-sm-12 main-table">
+                                <p>Edit information</p>
+                                <table class="table table-bordered">
+                                    <tr>
+                                        <th>Name of company</th>
+                                        <th>Profits of company</th>
+                                        <th>Edit name</th>
+                                        <th>Edit profits</th>
+                                    </tr>
+                                    <tr>
+                                        <td>Lenovo</td>
+                                        <td>2234$</td>
+                                        <td><button>edit</button></td>
+                                        <td><button>edit</button></td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </div>
+                <!--************************** Delete company *******************-->
+                        <div class="row" id="delete-company">
+                            <div class="col-sm-12 main-table">
+                                <p>Delete company</p>
+                                <table class="table table-bordered">
+                                    <tr>
+                                        <th>Name of company</th>
+                                        <th>Delete</th>
+
+                                    </tr>
+                                    <tr>
+                                        <td>Lenovo</td>
+                                        <td><button>delete</button></td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </div>
+                <!--************************* About app info ********************-->
+                    <div class="row" id="about-company">
+                        <div class="col-sm-12 main-table">
+                            <p>About app page</p>
+                            <table class="table table-bordered">
+                                <tr>
+                                    <th>Name of app</th>
+                                    <th>Used technologies</th>
+                                </tr>
+                                <tr>
+                                    <td>Management system of companies</td>
+                                    <td>php, jquery</td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                <!--************************* End content page ********************-->
+            </div>
+        </div>
+     </div>
+</div>
+<!--************************* End content block ********************-->
+
+<!--************************* START Footer *************************************** -->
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-sm-12 footer-main">
+            <p>&copy Copyright</p>
+            <p>&reg Register</p>
+        </div>
+    </div>
+</div>
+</body>
+</html>

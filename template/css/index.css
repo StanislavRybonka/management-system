@@ -1,0 +1,117 @@
+/**************************** Header **************************/
+.header-main{
+    background-color: green;
+}
+.header-label p{
+    font-family: Neucha;
+    color:yellow;
+    font-size: 60px;
+    font-weight: 400;
+}
+.border{
+    border: 5px solid green;
+}
+/***********************Main Content *************************/
+.tabs__content.active {
+    display: block;
+}
+.tabs__caption li{
+    text-align: center;
+}
+.tabs__caption li:hover{
+    color: yellow;
+    background: darkgreen;
+}
+.tabs__caption .active {
+    color: white;
+    background: darkgreen;
+    border: 1px solid yellow;
+}
+.tabs__content {
+    display: none;
+    background: #EFEFEF;
+}
+/*************************** Menu Companies *****************************/
+.nav-menu li{
+    font-family: Neucha;
+    color: yellow;
+    font-size: 23px;
+    background-color: green;
+    border-right: 1px solid white;
+    white-space: nowrap;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+    padding: 10px;
+    cursor: pointer;
+}
+.nav-menu li:focus {
+    font-family: Neucha;
+    color: yellow;
+    font-size: 23px;
+    background-color: darkgreen;
+    border-right: 1px solid white;
+}
+.nav-menu li:hover {
+    font-family: Neucha;
+    color: yellow;
+    font-size: 23px;
+    background-color: darkgreen;
+    border-right: 1px solid white;
+}
+.block-border-for-all-content{
+    border:  3px solid green;
+}
+.main-table{
+    padding-bottom: 30%;
+}
+/*************************** For all table-border *****************************/
+.main-table th{
+    font-family: Neucha;
+    color:black;
+    font-size: 20px;
+    text-align: center;
+}
+.main-table td{
+    font-family: Neucha;
+    color:black;
+    font-size: 20px;
+    text-align: center;
+}
+.main-table p{
+    padding-top: 10px;
+    font-family: Neucha;
+    color:black;
+    font-size: 25px;
+    text-align: center;
+}
+.main-table label{
+    text-align: right;
+    font-family: Neucha;
+    color:black;
+    font-size: 20px;
+    margin-top: 10px;
+}
+.main-table input{
+    margin-top: 10px;
+}
+/*************************** Footer ****************************************/
+.footer-main{
+    border-top:  1px solid white;
+    background-color: green;
+}
+.footer-main p{
+    font-family: Neucha;
+    color:yellow;
+    font-size: 18px;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
